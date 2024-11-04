@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---main css--->
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <title>Weather TG App </title>
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <i class="uil uil-location-point"></i>
+      <input type="text" placeholder="Enter your location">
+      <button class="search__btn"><i class="uil uil-search"></i></button>
+    </div>
+
+    <div class="error">
+      <p>Wrong city name</p>
+    </div>
+
+    <div class="weather">
+      <div class="weather-image">
+        <i class="uil uil-clouds"></i>
+      </div>
+      <h2 class="temp">22 &#8451</h2>
+      <h3 class="city">Berlin</h3>
+      <div class="details">
+        <div class="col">
+          <i class="uil uil-water"></i>
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humadity</p>
+          </div>
+
+          <div class="col">
+            <i class="uil uil-wind"></i>
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind speed</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="/scrypt.js"></script>
+</body>
+</html>
